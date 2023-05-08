@@ -13,6 +13,7 @@ def test_hotel():
     assert len(results) == 835
     assert len(headers) == 2
 
+
 def test_museum():
     db = Database('data/data_set2/db/data2.db')
     results, headers = db.execute('SELECT * FROM Museum;')

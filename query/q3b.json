@@ -1,5 +1,6 @@
 {
   "queryType": "SELECT",
+  "distinct": true,
   "variables": [
     {
       "termType": "Variable",

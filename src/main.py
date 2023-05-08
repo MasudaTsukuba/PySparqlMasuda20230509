@@ -6,6 +6,7 @@ from src.OutputClass import Output
 import subprocess
 
 path = '/home/masuda/PycharmProjects/PySparqlMasuda20230501/'
+# path = '/home/masuda/PycharmProjects/PySparqlQuery20230508/'
 
 
 def query2json(input_file):

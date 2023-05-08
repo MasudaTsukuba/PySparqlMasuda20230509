@@ -199,7 +199,7 @@
         "ex:subject_uri": "PREFIX_countryW",
         "ex:object_uri": "plain",
         "ex:subject": "Var28",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_name/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_name"},
         "ex:object": "Var29",
         "ex:SQL": "SELECT c_id AS Var28, name AS Var29 FROM W_country;"
     },
@@ -211,7 +211,7 @@
         "ex:subject_uri": "PREFIX_countryM",
         "ex:object_uri": "plain",
         "ex:subject": "Var30",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_name/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_name"},
         "ex:object": "Var31",
         "ex:SQL": "SELECT co_id AS Var30, name AS Var31 FROM M_country;"
     },
@@ -223,7 +223,7 @@
         "ex:subject_uri": "PREFIX_countryH",
         "ex:object_uri": "plain",
         "ex:subject": "Var32",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_name/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_name"},
         "ex:object": "Var33",
         "ex:SQL": "SELECT cn_id AS Var32, name AS Var33 FROM H_country;"
     },
@@ -235,7 +235,7 @@
         "ex:subject_uri": "PREFIX_countryB",
         "ex:object_uri": "plain",
         "ex:subject": "Var34",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_name/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_name"},
         "ex:object": "Var35",
         "ex:SQL": "SELECT bc_id AS Var34, name AS Var35 FROM B_country;"
     },
@@ -247,7 +247,7 @@
         "ex:subject_uri": "PREFIX_countryW",
         "ex:object_uri": "plain",
         "ex:subject": "Var36",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_comment/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_comment"},
         "ex:object": "Var37",
         "ex:SQL": "SELECT c_id AS Var36, comment AS Var37 FROM W_country;"
     },
@@ -259,7 +259,7 @@
         "ex:subject_uri": "PREFIX_countryM",
         "ex:object_uri": "plain",
         "ex:subject": "Var38",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_comment/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_comment"},
         "ex:object": "Var39",
         "ex:SQL": "SELECT co_id AS Var38, comment AS Var39 FROM M_country;"
     },
@@ -271,7 +271,7 @@
         "ex:subject_uri": "PREFIX_countryH",
         "ex:object_uri": "plain",
         "ex:subject": "Var40",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_comment/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_comment"},
         "ex:object": "Var41",
         "ex:SQL": "SELECT cn_id AS Var40, name AS Var41 FROM H_country;"
     },
@@ -283,7 +283,7 @@
         "ex:subject_uri": "PREFIX_countryB",
         "ex:object_uri": "plain",
         "ex:subject": "Var42",
-        "ex:predicate": {"@id": "http://example.com/predicate/country_comment/"},
+        "ex:predicate": {"@id": "http://example.com/predicate/country_comment"},
         "ex:object": "Var43",
         "ex:SQL": "SELECT bc_id AS Var42, name AS Var43 FROM B_country;"
     }

@@ -70,7 +70,7 @@ class Sparql:
                 var_list_string_local += value_predicate
             else:
                 value_predicate = '<' + value_predicate + '>'
-                var_predicate =value_predicate
+                var_predicate = value_predicate
             temp_object = triple_json['object']
             value_object = temp_object['value']
             var_object = '?dummy_object'

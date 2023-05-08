@@ -41,6 +41,6 @@ def test_q7():
     assert len(result) == 1
 
 
-def test_q1pred():
-    result = execute_query('query/q1pred.txt')
+def test_q1pred_hotel():
+    result = execute_query('query/q1pred_hotel.txt')
     assert len(result) == 801

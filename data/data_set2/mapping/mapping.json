@@ -148,7 +148,7 @@
         "subject_uri":"PREFIX_countryW",
         "object_uri":"plain",
         "subject":"Var28",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var29",
         "SQL":"SELECT c_id AS Var28, name AS Var29 FROM W_country;"
     },
@@ -157,7 +157,7 @@
         "subject_uri":"PREFIX_countryM",
         "object_uri":"plain",
         "subject":"Var30",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var31",
         "SQL":"SELECT co_id AS Var30, name AS Var31 FROM M_country;"
     },
@@ -166,7 +166,7 @@
         "subject_uri":"PREFIX_countryH",
         "object_uri":"plain",
         "subject":"Var32",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var33",
         "SQL":"SELECT cn_id AS Var32, name AS Var33 FROM H_country;"
     },
@@ -175,7 +175,7 @@
         "subject_uri":"PREFIX_countryB",
         "object_uri":"plain",
         "subject":"Var34",
-        "predicate":"http://example.com/predicate/country_name/",
+        "predicate":"http://example.com/predicate/country_name",
         "object":"Var35",
         "SQL":"SELECT bc_id AS Var34, name AS Var35 FROM B_country;"
     },
@@ -184,7 +184,7 @@
         "subject_uri":"PREFIX_countryW",
         "object_uri":"plain",
         "subject":"Var36",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var37",
         "SQL":"SELECT c_id AS Var36, comment AS Var37 FROM W_country;"
     },
@@ -193,7 +193,7 @@
         "subject_uri":"PREFIX_countryM",
         "object_uri":"plain",
         "subject":"Var38",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var39",
         "SQL":"SELECT co_id AS Var38, comment AS Var39 FROM M_country;"
     },
@@ -202,7 +202,7 @@
         "subject_uri":"PREFIX_countryH",
         "object_uri":"plain",
         "subject":"Var40",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var41",
         "SQL":"SELECT cn_id AS Var40, name AS Var41 FROM H_country;"
     },
@@ -211,7 +211,7 @@
         "subject_uri":"PREFIX_countryB",
         "object_uri":"plain",
         "subject":"Var42",
-        "predicate":"http://example.com/predicate/country_comment/",
+        "predicate":"http://example.com/predicate/country_comment",
         "object":"Var43",
         "SQL":"SELECT bc_id AS Var42, name AS Var43 FROM B_country;"
     }

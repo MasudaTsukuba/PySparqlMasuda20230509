@@ -41,6 +41,8 @@ class Sparql:
                         arg_value = arg['value']
                         if arg['termType'] == 'Variable':
                             temp_args.append(arg_value)
+                        if arg['termType'] == 'NamedNode':  # 2023/5/8
+                            temp_args.append(f'"{arg_value}"')  # 2023/5/8
                         if arg['termType'] == 'Literal':
                             temp_args.append(f'"{arg_value}"')
                     self.filters_list.append(

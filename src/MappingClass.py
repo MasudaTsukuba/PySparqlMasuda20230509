@@ -10,5 +10,5 @@ class Mapping:
             self.mapping_dict = json.load(json_open_file)
         # json_open_file.close()
         self.mapping_graph = Graph()
-        self.mapping_graph.parse('data/data_set2/mapping/mapping_ld.json')
+        self.mapping_graph.parse('data/data_set2/mapping/mapping_ld2.json')
         # self.mapping_graph.serialize('xxx.ttl', format='turtle')  # debug

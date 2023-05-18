@@ -5,8 +5,8 @@
         "object_uri":"-",
         "subject":"Var0",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Museum",
-        "SQL":"SELECT museum_id AS Var0 FROM museum;"
+        "object":"Var0o",
+        "SQL":"SELECT museum_id AS Var0, \"http://example.com/ontology/Museum\" AS Var0o FROM museum;"
     },
     {
         "mappingID":2,
@@ -14,8 +14,8 @@
         "object_uri":"-",
         "subject":"Var1",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Hotel",
-        "SQL":"SELECT h_id AS Var1, \"dummy\" AS Var1b FROM Hotel;"
+        "object":"Var1o",
+        "SQL":"SELECT h_id AS Var1, \"http://example.com/ontology/Hotel\" AS Var1o FROM Hotel;"
     },
     {
         "mappingID":3,
@@ -23,8 +23,8 @@
         "object_uri":"-",
         "subject":"Var2",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/Build",
-        "SQL":"SELECT b_id AS Var2 FROM Build;"
+        "object":"Var2o",
+        "SQL":"SELECT b_id AS Var2, \"http://example.com/ontology/Build\" AS Var2o FROM Build;"
     },
     {
         "mappingID":4,
@@ -32,8 +32,8 @@
         "object_uri":"-",
         "subject":"Var3",
         "predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
-        "object":"http://example.com/ontology/World_Heritage",
-        "SQL":"SELECT p_id AS Var3 FROM heritage;"
+        "object":"Var3o",
+        "SQL":"SELECT p_id AS Var3, \"http://example.com/ontology/World_Heritage\" AS Var3o FROM heritage;"
     },
     {
         "mappingID":5,

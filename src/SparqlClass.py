@@ -59,7 +59,7 @@ class Sparql:
                 var_list.append(value_subject)
                 value_subject = '?' + value_subject
                 var_subject = value_subject
-                var_list_string_local += value_subject
+                var_list_string_local += ' '+value_subject
             else:
                 value_subject = '<' + value_subject + '>'
             temp_predicate = triple_json['predicate']
@@ -69,7 +69,7 @@ class Sparql:
                 var_list.append(value_predicate)
                 value_predicate = '?' + value_predicate
                 var_predicate = value_predicate
-                var_list_string_local += value_predicate
+                var_list_string_local += ' '+value_predicate
             else:
                 value_predicate = '<' + value_predicate + '>'
                 var_predicate = value_predicate
@@ -80,7 +80,7 @@ class Sparql:
                 var_list.append(temp_object['value'])
                 value_object = '?' + temp_object['value']
                 var_object = value_object
-                var_list_string_local += value_object
+                var_list_string_local += ' '+value_object
             elif temp_object['termType'] == 'Literal':
                 value_object = '"' + value_object + '"'
                 var_object = value_object

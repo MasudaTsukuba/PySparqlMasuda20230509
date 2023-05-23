@@ -1,11 +1,13 @@
 import os
+import re
+
 import pandas as pd
 
 
 class Uri:
     def __init__(self, path):
-        self.uri_dict = {}
-        self.inv_dict = {}
+        self.uri_dict = {}  # string -> uri
+        self.inv_dict = {}  # uri -> string
         self.uri_dict_all = {}
         self.inv_dict_all = {}
         for file in os.listdir(path):
@@ -21,6 +23,19 @@ class Uri:
     # def read_dict(self):
     #     path = 'data/data_set2/uri'
     #     pass
+
+    def uri_to_str(self, uri_string):
+        pattern = r'"(http://.*?)"'
+        matches = re.findall(pattern, uri_string)
+        converted_string = uri_string
+        for match in matches:
+            try:
+                converted_string = re.sub(pattern, f'"{self.inv_dict_all[match]}"', converted_string)  # uri->str conv
+                pass
+            except KeyError:
+                pass
+        pass
+        return converted_string
 
     def sql_to_rdf(self, sql_results):
         sparql_results = []

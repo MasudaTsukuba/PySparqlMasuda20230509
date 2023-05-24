@@ -10,7 +10,8 @@ working_dir = os.getcwd()
 if working_dir.endswith('src'):
     working_dir = os.path.dirname(working_dir)
 # '/home/masuda/PycharmProjects/PySparqlMasuda20230509/'
-common_query_path = os.path.dirname(working_dir)+'/PySparqlQuery20230508/query/'
+# common_query_path = os.path.dirname(working_dir)+'/PySparqlQuery20230508/query/'
+common_query_path = os.path.dirname(working_dir)+'/PySparqlSatoNew20230509/query/'
 
 
 def query2json(input_file):
